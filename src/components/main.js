@@ -16,7 +16,7 @@ function Ui() {
         <div className='container'style={{ width: '18rem' }} >
             {myData.map(data => (
                 <Card style={{ width: '18rem' }} className="card mt-3">
-                    <Card.Img variant="top" src={data.show.image.medium} />
+                    <Card.Img variant="top" src={data.show.image?.medium} />
                     <Card.Body>
                         <Card.Title>Show Name-{data.show.name}</Card.Title>
                         <Card.Text>
